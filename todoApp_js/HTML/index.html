@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="https://kit.fontawesome.com/9ef7b0713a.js" crossorigin="anonymous"></script>
+<!-- google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo&family=Tajawal:wght@700;800&family=Ubuntu:wght@300&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <title>TodoApp</title>
+</head>
+<body>
+    
+    <div>
+        <!-- Center div -->
+            <div class=" container">
+
+            <!--TASKS TABLE  -->
+                <div class="main">
+
+                    <!--header  -->
+                    <div class="header">
+                        <!-- <input type="text"> -->
+                        <h1 style="display: inline;">مهامي</h1>
+                     
+                        <button class="circleBtn" id="addNewTask"><i class="fa-solid fa-plus"></i></button>
+                        
+                    </div>
+                    <!-- End header -->
+
+                    <!-- Start TASKS conteainer  -->
+                            <div class="containerTasks" id="Tasks">
+
+                                <!-- Task content-->
+                                <div class="taskContent">
+
+                                <!-- task info -->
+                                <div class="taskInfo">
+                                    <h2>قراءة كتاب </h2>
+
+                                    <div>
+                                       <span><i class="fa-sharp fa-solid fa-calendar"></i></span>  </i><span>30/5/2023</span>
+                                    </div>
+                                </div>
+                                
+                                    <!-- //task info -->
+
+                                    <!-- tasks Actions -->
+                                    
+                                    <div class="actions">
+                                        <button class="circleBtn Delete"><i class="fa-solid fa-trash colorIcon"></i></button>
+                                        <button class="circleBtn Cheeck"><i class="fa-solid fa-check colorIcon"></i></button>
+                                        <button class="circleBtn Edite"><i class="fa-solid fa-pen-to-square colorIcon"></i></button>
+                                        <!-- <BUtton>per</BUtton> -->
+                                    </div>
+                                    <!-- //tasks Actions// -->
+                                </div>
+                                
+                                <!-- //task content //-->
+                            </div>  
+
+                    <!-- END TASKS Container   -->
+                </div>
+
+            <!--TASKS TABLE  -->
+            </div>
+        <!--//End Center div //-->
+    </div>
+
+
+    <script src="../JS/index.js"></script>
+</body>
+</html>

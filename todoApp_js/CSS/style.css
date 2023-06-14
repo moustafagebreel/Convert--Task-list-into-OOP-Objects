@@ -1,0 +1,92 @@
+
+body{
+    background-color:rgb(30, 0 ,70);
+    /* font-family: 'Cairo', sans-serif; */
+font-family: 'Tajawal', sans-serif;
+/* font-family: 'Ubuntu', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    padding-top: 200px;
+  }
+  
+  .container .main {
+    background-color: rgb(233, 233, 243);
+    width: 60%;
+  
+
+  
+  }
+  
+.header{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(92,52,152);
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  
+}
+button{
+    background-color: white;
+    float: right; 
+    margin-right: 10px;
+}
+button{
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 3px 5px rgb(168, 168, 168, 0.6);
+}
+button.circleBtn{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    cursor:pointer;
+}
+.taskInfo{
+    width: 70%;
+    /* background-color: rgb(235, 227, 227); */
+    
+}
+.Delete{
+    background-color: rgb(161, 17, 24);
+}
+.Edite{
+    background-color:rgb(34, 34, 143);
+}
+.Cheeck{
+    background-color:green;
+}
+.actions{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width:25%;
+
+}
+.taskContent{
+    display: flex;
+   
+ 
+    /* border-bottom: 1px solid rgb(0, 0, 0); */
+    
+}
+
+.containerTasks{
+    background-color: white;
+    margin: 10px;
+    padding: 2px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+  transition: box-shadow 0.5s;
+}
+.colorIcon{
+    color: white;
+}
+.containerTasks:hover{
+    box-shadow: 0px 3px 15px rgba(97, 97, 97, 0.843);
+}
